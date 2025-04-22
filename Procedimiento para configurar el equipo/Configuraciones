@@ -1,0 +1,25 @@
+
+CREAR REGLA PERSONALIZADA EN WAZUH
+
+En esta guía, aprenderás a crear reglas personalizadas en Wazuh para monitorear eventos específicos, como actividades sospechosas en sistemas Windows detectadas por Sysmon. Además, veremos cómo asignar estas reglas a grupos de agentes, permitiendo una gestión segmentada y eficiente según el tipo de dispositivo (ej: servidores, estaciones de trabajo).
+
+Con este enfoque, podrás:
+
+- Detectar amenazas personalizadas (ej: procesos no autorizados, cambios críticos).
+
+- Priorizar alertas según la criticidad (level).
+
+- Filtrar reglas por grupos (etiquetas como windows o linux), optimizando el análisis.
+
+
+Primero debereis instalar en el equipo que tenga el agente Wazuh los siguientes archivos:
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+https://github.com/olafhartong/sysmon-modular
+
+Una vez instalado ejecutamos el siguiente comando:
+
+
+
+
+
+Con esto ya estaria las configuraciones en el equipo donde esta el agente Wazuh, en resumen, se requiere instalar el agente Wazuh y sysmon.
