@@ -10,3 +10,4 @@
       <log_format>eventchannel</log_format>
     </localfile>
   </agent_config>
+
