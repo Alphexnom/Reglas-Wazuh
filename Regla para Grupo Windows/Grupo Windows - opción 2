@@ -1,0 +1,12 @@
+  <agent_config>
+    <client_buffer>
+      <!-- Agent buffer options -->
+      <disable>no</disable>
+      <queue_size>100000</queue_size>
+      <events_per_second>1000</events_per_second>
+    </client_buffer>
+    <localfile>
+      <location>Microsoft-Windows-Windows Defender/Operational</location>
+      <log_format>eventchannel</log_format>
+    </localfile>
+  </agent_config>
