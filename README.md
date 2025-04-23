@@ -3,7 +3,7 @@
 En esta guía aprenderás a crear reglas personalizadas en **Wazuh** para monitorear eventos específicos, como actividades sospechosas en sistemas Windows detectadas por **Sysmon**.  
 Además, veremos cómo asignar estas reglas a **grupos de agentes**, permitiendo una gestión segmentada y eficiente según el tipo de dispositivo (por ejemplo: servidores, estaciones de trabajo).
 
----
+
 
 ## 🎯 Objetivos
 
