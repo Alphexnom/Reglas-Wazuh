@@ -36,7 +36,7 @@ Una vez instalado, ejecutamos el siguiente comando:
 
 Al finalizar, deberías ver un resultado similar a este:
 
-![Resultado](https://user-images.githubusercontent.com/123456789/imagename2.png)
+![Image](https://github.com/user-attachments/assets/922671ff-656b-426d-8e3a-18938fc1d8b8)
 
 
 
