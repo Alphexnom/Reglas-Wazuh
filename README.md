@@ -28,7 +28,7 @@ Primero, en el equipo donde se encuentre instalado el **agente Wazuh**, debes de
 
 Una vez instalado, ejecutamos el siguiente comando:
 
-![Ejemplo comando](https://user-images.githubusercontent.com/123456789/imagename1.png)
+![Image](https://github.com/user-attachments/assets/29d34f98-288e-497d-94d0-583914ac0a35)
 
 
 
