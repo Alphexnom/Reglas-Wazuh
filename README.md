@@ -5,7 +5,7 @@ Además, veremos cómo asignar estas reglas a **grupos de agentes**, permitiendo
 
 
 
-## 🎯 Objetivos
+##  Objetivos
 
 Con este enfoque, podrás:
 
@@ -15,16 +15,16 @@ Con este enfoque, podrás:
 
 
 
-## 🔧 Instalación de herramientas necesarias
+##  El primer paso es instalar Sysmon en el equipo donde está el agente Wazuh
 
-Primero, en el equipo donde se encuentre instalado el **agente Wazuh**, debes descargar los siguientes archivos:
+En el equipo donde se encuentre instalado el **agente Wazuh**, debes descargar los siguientes archivos:
 
 - [Sysmon de Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - [Sysmon-Modular (reglas predefinidas)](https://github.com/olafhartong/sysmon-modular)
 
 
 
-## 💻 Ejecución del comando
+##  Ejecución del comando
 
 Una vez instalado, ejecutamos el siguiente comando:
 
@@ -32,7 +32,7 @@ Una vez instalado, ejecutamos el siguiente comando:
 
 
 
-## 📊 Resultado esperado
+##  Resultado esperado tras instalar Sysmon
 
 Al finalizar, deberías ver un resultado similar a este:
 
@@ -40,29 +40,16 @@ Al finalizar, deberías ver un resultado similar a este:
 
 
 
-## ✅ Conclusión
-
-Con esto, ya estarían configurados los elementos necesarios en el equipo donde se encuentra el **agente Wazuh**.  
-En resumen:
-
-> Se requiere instalar el **agente Wazuh** y **Sysmon**, además de aplicar reglas personalizadas para una detección más precisa y segmentada de eventos.
-
-
-
-## 📌 Notas adicionales
-
-- Asegúrate de reiniciar el agente tras hacer cambios en la configuración.
-- Puedes seguir monitoreando el estado del agente desde el dashboard de Wazuh.
 
 
 
 ## 📌 Configuración de Reglas Personalizadas en Wazuh
 
-En Wazuh configuraremos dos puntos importantes en la interfaz: **una nueva regla personalizada** y **una regla para los grupos**.
+En Wazuh configuraremos dos puntos importantes: **una nueva regla personalizada** y **una regla para los grupos**.
 
 ### Paso 1: Agregar una nueva regla en el grupo
 
-Primero, agrega la nueva regla en el grupo correspondiente (las reglas están disponibles en el repositorio en la siguiente ruta):
+Primero, agrega la nueva regla en el grupo correspondiente (las reglas están disponibles en el repositorio en la siguiente ruta, solo tienes que copiar y pegarlas):
 
 ![Imagen de la ruta en el repositorio](https://github.com/user-attachments/assets/aa31a0de-f486-423b-a5a0-652ba1e3d3fd)
 
@@ -79,7 +66,7 @@ Primero, agrega la nueva regla en el grupo correspondiente (las reglas están di
    - **3ª ruta**:  
      ![Imagen de la tercera ruta](https://github.com/user-attachments/assets/9aaf5fed-5568-41d0-b03e-c942d034bad9)
 
-Con esto, habrás asignado la regla al grupo **Windows**.
+Con esto, habrás asignado la regla al grupo que hayas creado, en mi caso, **Windows**.
 
 ---
 
@@ -96,7 +83,7 @@ Ahora, configuraremos una nueva regla de **Sysmon** en la siguiente ruta de Wazu
 3. **3ª ruta**:  
    ![Imagen de la tercera ruta](https://github.com/user-attachments/assets/9d0b40a4-1b7a-4699-b2d2-e1b6e486ba15)
 
-4. Agrega la siguiente regla desde el repositorio en la siguiente ubicación:
+4. Agrega la siguiente regla que estea en mi repositorio en la siguiente ruta, es solo copiarla:
 
    - **4ª ruta**:  
      ![Imagen de la cuarta ruta](https://github.com/user-attachments/assets/058b778f-dbc9-4369-9979-addc05275e7d)
@@ -108,9 +95,8 @@ Con esto, habrás implementado la nueva regla **Sysmon** para que Wazuh pueda de
 
 ---
 
-## 🔑 IMPORTANTE
+## 📌 IMPORTANTE
 
-Reinicia el agente Wazuh en el equipo donde se ha realizado la configuración para aplicar los cambios.
-
-6. **Reinicia el agente**:  
+- Asegúrate de reiniciar el agente tras hacer cambios en la configuración.
+ 
    ![Imagen de reinicio del agente](https://github.com/user-attachments/assets/d61510fa-e08c-4740-bb69-5648a6ad36c4)
