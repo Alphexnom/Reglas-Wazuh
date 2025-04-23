@@ -13,9 +13,9 @@ Estas reglas ayudan a mejorar la visibilidad y detección de comportamientos sos
 
 Con este enfoque, podrás:
 
-- 🕵️‍♂️ **Detectar amenazas personalizadas**, como procesos no autorizados o cambios críticos.
-- 🚨 **Priorizar alertas** según la criticidad (`level`).
-- 🧩 **Filtrar reglas por grupos**, utilizando etiquetas como `windows` o `linux`, optimizando el análisis.
+- **Detectar amenazas personalizadas**, como procesos no autorizados o cambios críticos.
+- **Priorizar alertas** según la criticidad (`level`).
+- **Filtrar reglas por grupos**, utilizando etiquetas como `windows` o `linux`, optimizando el análisis.
 
 ---
 
@@ -28,7 +28,7 @@ Primero, en el equipo donde se encuentre instalado el **agente Wazuh**, debes de
 
 ---
 
-## 💻 Ejecución del comando
+## Ejecución del comando
 
 Una vez instalado, ejecutamos el siguiente comando:
 
@@ -36,15 +36,19 @@ Una vez instalado, ejecutamos el siguiente comando:
 
 ---
 
-## 📊 Resultado esperado
+## Resultado esperado
 
 Al finalizar, deberías ver un resultado similar a este:
 
 ![Resultado](https://user-images.githubusercontent.com/123456789/imagename2.png)
 
+## IMPORTANTE
+
+- Asegúrate de reiniciar el agente tras hacer cambios en la configuración.
+
 ---
 
-## ✅ Conclusión
+## Conclusión
 
 Con esto, ya estarían configurados los elementos necesarios en el equipo donde se encuentra el **agente Wazuh**.  
 En resumen:
@@ -53,7 +57,5 @@ En resumen:
 
 ---
 
-## 📌 Notas adicionales
 
-- Asegúrate de reiniciar el agente tras hacer cambios en la configuración.
-- Puedes seguir monitoreando el estado del agente desde el dashboard de Wazuh.
+
