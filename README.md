@@ -83,11 +83,12 @@ Ahora, configuraremos una nueva regla de **Sysmon** en la siguiente ruta de Wazu
 3. **3ª ruta**:  
    ![Imagen de la tercera ruta](https://github.com/user-attachments/assets/9d0b40a4-1b7a-4699-b2d2-e1b6e486ba15)
 
-4. Agrega la siguiente regla que esta en mi repositorio en la siguiente ruta, es solo copiarla:
+4. Agrega la siguiente regla que está en mi repositorio en la siguiente ruta, es solo copiarla:
 
    - **4ª ruta**:  
      ![Imagen de la cuarta ruta](https://github.com/user-attachments/assets/058b778f-dbc9-4369-9979-addc05275e7d)
 
+5. Una vez copiada la regla del repositorio, la pegaremos en la configuración de Wazuh.
    - **5ª ruta**:  
      ![Imagen de la quinta ruta](https://github.com/user-attachments/assets/ddd7820d-3cff-4fc6-b0ad-5484b97ea4b3)
 
