@@ -66,7 +66,7 @@ Primero, agrega la nueva regla en el grupo correspondiente (las reglas están di
    - **3ª ruta**:  
      ![Imagen de la tercera ruta](https://github.com/user-attachments/assets/9aaf5fed-5568-41d0-b03e-c942d034bad9)
 
-Con esto, habrás asignado la regla al grupo que hayas creado, en mi caso, **Windows**.
+Guardas los cambios y con esto, habrás asignado la regla al grupo que hayas creado, en mi caso, **Windows**.
 
 ---
 
